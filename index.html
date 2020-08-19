@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Squada+One&display=swap" rel="stylesheet">
+  <style>
+  html, body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+  }
+  nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #cc0000;
+    padding: 15px;
+  }
+  nav a {
+    padding: 10px;
+  }
+  #welcome-section {
+    height: 100%;
+    width: 100%;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  h1, h2 {
+    color: #cc0000;
+    margin: 10px;
+    font-family: 'Squada One', cursive;
+  }
+  h1 {
+    font-size: 72px;
+  }
+  h2 {
+    font-size: 35px;
+    padding: 0;
+  }
+  #projects {
+    background: navy;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  #projects span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #education {
+    min-height: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background: #007733;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #education span {
+    width: 500px;
+    max-width: 90%;
+    text-align: left;
+    color: white;
+  }
+  h4 {
+    font-size: 24px;
+    margin: 5px;
+    line-height: 1;
+  }
+  h5 {
+    font-size: 20px;
+    margin: 5px;
+    padding-top: 5px;
+    line-height: 1;
+    font-style: italic;
+    font-weight: normal;
+  }
+  #education p {
+    font-size: 20px;
+    margin: 5px;
+    line-height: 1;
+  }
+  #experience {
+    min-height: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background: #550055;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #experience span {
+    width: 520px;
+    max-width: 90%;
+    text-align: left;
+    color: white;
+  }
+  #experience p {
+    font-size: 20px;
+    margin: 5px;
+    line-height: 1;
+    text-align: center;
+  }
+  h6 {
+    color: white;
+    font-size: 16px;
+    margin: 5px;
+  }
+  #contact-info {
+    background: #bb8800;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  #contact-info p {
+    grid-area: header;
+    font-size: 50px;
+    color: white;
+    padding-top: 50px;
+  }
+  #contact-info span {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  a {
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  h3 {
+    color: white;
+    font-size: 30px;
+  }
+  @media (max-width: 700px) {
+    #projects span {
+      flex-direction: column;
+    }
+  }
+  </style>
+</head>
+<body>
+  <nav id="navbar">
+    <a href="#welcome-section">Welcome</a>
+    <a href="#projects">Projects</a>
+    <a href="#education">Education</a>
+    <a href="#experience">Experience</a>
+    <a href="#contact-info">Contact</a>
+  </nav>
+  <section id="welcome-section">
+    <h1>Hello, I'm Chris Hartung</h1>
+    <h2>Welcome to my portfolio</h2>
+  </section>
+  <section id="projects">
+    <h3>Here are some of my projects:</h3>
+    <span>
+      <a href="https://codepen.io/chartung17/full/ExKywJa" target="_blank"><figure class="project-tile">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Isidor_von_Sevilla.jpeg/216px-Isidor_von_Sevilla.jpeg" width=216px height=240px>
+        <figcaption>Tribute Page</figcaption>
+      </figure></a>
+      <a href="https://github.com/UPenn-CIT599/final-project-team1_gogame" target="_blank"><figure class="project-tile">
+        <img src="https://i.ibb.co/ZmM2Hkz/go.jpg" width=250px height=250px>
+        <figcaption>Go Game</figcaption>
+      </figure></a>
+    </span>
+  </section>
+  <section id="education">
+    <h3>Education</h3>
+    <span>
+      <h4>University of Pennsylvania - Philadelphia, PA</h4>
+      <h5>Master of Computer and Information Technology, 2019-2021</h5>
+      <br>
+      <h4>Franciscan University of Steubenville - Steubenville, OH</h4>
+      <h5>Master of Arts, 2014-2016</h5>
+      <p>Theology and Christian Ministry</p>
+      <br>
+      <h4>University of Delaware - Newark, DE</h4>
+      <h5>Honors Bachelor of Arts with Distinction, 2009-2013</h5>
+      <p>Philosophy and Ancient Greek and Roman Studies</p>
+      <h5>Bachelor of Science, 2009-2013</h5>
+      <p>Economics</p>
+    </span>
+  </section>
+  <section id="experience">
+    <h3>Work Experience</h3>
+    <span>
+      <p>See my complete work history on <a href="https://www.linkedin.com/in/christopher-hartung-72216692/" target="_blank">LinkedIn</a></p>
+      <br>
+      <h4>University of Pennsylvania - Philadelphia, PA</h4>
+      <h5>Teaching Assistant - Mathematical Foundations of Computer Science</h5>
+      <h6>May 2020 - Present</h6>
+      <ul>
+        <li>Instructed students in combinatorics, statistics, and graph theory through office hours, recitations, and discussion forums</li>
+      </ul>
+      <br>
+      <h4>Concentric Engineering - Easton, MD</h4>
+      <h5>Technical Specialist</h5>
+      <h6>June 2010 - January 2016</h6>
+      <ul>
+        <li>Organized warehourse and counted inventory items</li>
+        <li>Assembled circuit boards, computers, and battery boxes</li>
+      </ul>
+      <h5>Inventory Control Clerk</h5>
+      <h6>March 2014 - January 2015</h6>
+      <ul>
+        <li>Developed bills of materials and manufacture/sales/purchase orders using the Fishbowl Inventory system</li>
+        <li>Implemented new organizational system for inventory, allowing parts to be picked and delivered to engineering and mechanical teams in half the time</li>
+      </ul>
+      <h5>Analyst</h5>
+      <h6>August 2013 - March 2014</h6>
+      <ul>
+        <li>Analyzed data from Fast Fourier Transform plots for system functionality across various environments</li>
+        <li>Automated portions of data analysis process, allowing data to be anaylzed three times faster than before</li>
+        <li>Tested hardware and software functionality in shop and field conditions</li>
+        <li>Troubleshot mechanical and electrical systems to determine point of failure and common cause of failure</li>
+      </ul>
+    </span>
+  </section>
+  <footer id="contact-info">
+    <p>Contact Me</p>
+    <span>
+      <a id="profile-link" href="https://github.com/chartung17" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/christopher-hartung-72216692/" target="_blank">LinkedIn</a>
+      <a href="mailto:chartung@udel.edu" target="_blank">Email</a>
+    </span>
+  </footer>
+</body>
