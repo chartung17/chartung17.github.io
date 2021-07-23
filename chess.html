@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Chess</title>
+    <script src="https://cjrtnc.leaningtech.com/2.2/loader.js"></script>
+  </head>
+  <body>
+  </body>
+  <style>
+    footer {
+      margin-top: 50px;
+    }
+    body, footer {
+      background-color: lightblue;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  </style>
+  <script>
+      cheerpjInit();
+      cheerpjCreateDisplay(970,650);
+      cheerpjRunJar("/app/Chess.jar");
+  </script>
+  <footer>
+    <p>This chess app was originally written in Java and has been transpiled to JavaScript using CheerPJ. The Java source code and runnable JAR file can be found <a href="https://github.com/chartung17/chess/" target="_blank">here</a>.</p>
+  </footer>
+</html>
