@@ -10,6 +10,6 @@ https://github.com/UPenn-CIT599/final-project-team1_gogame
 
 https://github.com/chartung17/quote-generator
 
-https://github.com/chartung17/markdown-previewer
+https://github.com/chartung17/resume-maker
 
 https://github.com/chartung17/sudoku-solver
