@@ -8,7 +8,7 @@ https://github.com/chartung17/chess
 
 https://github.com/UPenn-CIT599/final-project-team1_gogame
 
-https://github.com/chartung17/quote-generator
+https://github.com/chartung17/steganography
 
 https://github.com/chartung17/resume-maker
 
